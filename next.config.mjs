@@ -1,3 +1,4 @@
+import { Module } from 'module';
 import { config } from 'process';
 
 /** @type {import('next').NextConfig} */
@@ -12,4 +13,4 @@ const nextConfig = {
 };
 
 
-export default nextConfig;
+module.export = nextConfig
