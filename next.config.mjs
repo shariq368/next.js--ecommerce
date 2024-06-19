@@ -1,4 +1,3 @@
-import { Module } from 'module';
 import { config } from 'process';
 
 /** @type {import('next').NextConfig} */
@@ -13,4 +12,4 @@ const nextConfig = {
 };
 
 
-module.export = nextConfig
+export default nextConfig;
