@@ -10,8 +10,8 @@ import {structureTool} from 'sanity/structure'
 import { urlForImage } from './sanity/lib/image'
 
 // Go to https://www.sanity.io/docs/api-versioning to learn how API versioning works
-import {apiVersion, dataset, projectId} from './sanity/schemas/env'
-import {schema} from './sanity/schemas/schema'
+import {apiVersion, dataset, projectId} from './sanity/env'
+import {schema} from './sanity/schema'
 
 export default defineConfig({
   basePath: '/studio',
